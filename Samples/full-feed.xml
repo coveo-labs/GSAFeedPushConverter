@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE gsafeed PUBLIC "-//Google//DTD GSA Feeds//EN" "gsafeed.dtd">
+
+<gsafeed>
+  <header>
+    <datasource>sample</datasource>
+    <feedtype>full</feedtype>
+  </header>
+  <group>
+    <record url="http://www.corp.enterprise.com/hello01" mimetype="text/plain" last-modified="Tue, 15 Nov 1994 12:45:26 GMT">
+      <content> This is hello01 </content>
+    </record>
+    <record url="http://www.corp.enterprise.com/hello02" mimetype="text/plain" lock="true">
+      <content> This is hello02 </content>
+    </record>
+    <record url="http://www.corp.enterprise.com/hello03" mimetype="text/html">
+      <content><![CDATA[
+<html>
+  <title>namaste</title>
+  <body>
+    This is hello03
+  </body>
+</html>
+]]>
+      </content>
+      <metadata>
+        <meta encoding="base64binary" name="cHJvamVjdF9uYW1l" content="Y2lyY2xlZ19yb2Nrcw=="/>
+      </metadata>
+    </record>
+    <record url="http://www.corp.enterprise.com/hello04.html" mimetype="text/html">
+      <content encoding="base64binary">Zm9vIGJhcgo</content>
+    </record>
+  </group>
+</gsafeed>

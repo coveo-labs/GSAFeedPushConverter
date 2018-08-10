@@ -1,0 +1,14 @@
+{
+  "PLATFORM_API_ENDPOINT": "https://platform.cloud.coveo.com",
+  "PUSH_API_ENDPOINT": "https://push.cloud.coveo.com",
+  "LISTENING_HOST":  "localhost",
+  "LISTENING_PORT": "19900",
+  "ORGANIZATION_ID": "-ORGANIZATION-ID-",
+  "PUSH_SOURCE_ID": "-PUSH-SOURCE-ID-",
+  "PROVIDER_ID": "GSAManualTestingProvider",
+  "API_KEY": "-API-KEY-",
+  "TEMP_FOLDER": "c:\temp\Coveo",
+  "DELETE_ON_INVALID_URL": true, //Determine if try to delete the document related to the URLs that do not give a code 200/ok.
+  "REQUIRE_DISPLAY_URL": false, //This mainly target the root elements of the connectors that does not have a display URL.
+  "PUSH_RECORDS_WITHOUT_ACL": true //This allows you to push documents without permissions(Allow everyone).
+}
