@@ -12,6 +12,13 @@ The above diagram is a typical scenario of how a GSA admin will create custom ex
 
 The GSA Feed to Coveo Push Listener will be run on an on-premise windows server that has outbound connectivity to the Coveo push API endpoints. It's important to note that this has been designed to run multiple instances using different listening ports, allowing for better non-blocking throughput from multiple ETL feeds.
 
+## Dependencies
+
+You need **DotNetZip** and **zlib.net** as dependencies. Extract them in their own folders under **./packages/** :
+
+1. https://www.nuget.org/packages/DotNetZip/
+1. https://www.nuget.org/packages/zlib.net/
+
 ## How to setup the Listener
 
 The following steps are necessary to configure and run the Coveo Push Listener.
